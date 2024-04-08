@@ -1,4 +1,4 @@
-#!url=https://raw.githubusercontent.com/Dohungx/shadowrocket-modules/main/spotify.module
+#!url=https://raw.githubusercontent.com/Dohungx/modules/main/spotify.module
 #!name=Spotify Premium Đỗ Hùng
 #!desc=Mở khóa một phần premium, khuyến nghị đăng nhập lại, không thể thiết lập chất lượng âm thanh cao cấp
 # 1. Trang tìm kiếm Danh sách bài hát / bài hát có thể chuyển đổi và phát toàn bộ
@@ -14,4 +14,4 @@
 hostname = %APPEND% spclient.wg.spotify.com
 
 [Script]
-spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Dohungx/shadowrocket-modules/main/spotify.js,script-update-interval=0
+spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Dohungx/modules/main/spotify.js,script-update-interval=0
